@@ -1,4 +1,20 @@
 $background-color: #FFFFF0;
 body {
     background-color: $background-color;
+    margin: 0 5rem 0 5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        list-style: none;
+    }
+    a {
+        display: flex;
+        text-decoration: none;
+    }
 }
