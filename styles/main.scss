@@ -1,20 +1,46 @@
-$background-color: #FFFFF0;
+$background-color: white;
+$text-color: black;
+$on-hover-color: gray;
+$font-family: 'Raleway',
+sans-serif;
+$link-font-size: 3rem;
 body {
     background-color: $background-color;
-    margin: 0 5rem 0 5rem;
+    margin: 5rem 10rem 0 10rem;
 }
 
+//TODO
+// Move Nav Links to right side of page
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    font-family: $font-family;
     .nav-links {
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        list-style: none;
+        ul {
+            display: flex;
+            flex-direction: row;
+            li {
+                display: flex;
+                list-style: none;
+                a {
+                    margin: 0 2rem 0 2rem;
+                    justify-content: space-between;
+                    text-decoration: none;
+                    color: $text-color;
+                    font-size: $link-font-size;
+                }
+                a:hover {
+                    color: $on-hover-color;
+                }
+            }
+        }
     }
-    a {
-        display: flex;
-        text-decoration: none;
+}
+
+.about_me {
+    p {
+        font-family: $font-family;
+        font-size: 3rem;
     }
 }
