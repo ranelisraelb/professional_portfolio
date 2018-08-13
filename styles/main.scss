@@ -39,8 +39,29 @@ header {
 }
 
 .about_me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     p {
+        margin-top: 6em;
         font-family: $font-family;
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    .about-me-photo {
+        margin-top: 10em;
+    }
+}
+
+.work {
+    .headline {
+        font-size: $link-font-size;
+        font-family: $font-family;
+    }
+}
+
+.contact {
+    .headline {
+        font-size: $link-font-size;
+        font-family: $font-family;
     }
 }

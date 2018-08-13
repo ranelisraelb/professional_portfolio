@@ -48,8 +48,36 @@ header .nav-links ul li a:hover {
   color: gray;
 }
 
+.about_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .about_me p {
+  margin-top: 6em;
   font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.about_me .about-me-photo {
+  margin-top: 10em;
+}
+
+.work .headline {
   font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact .headline {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
