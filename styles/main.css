@@ -80,4 +80,27 @@ header .nav-links ul li a:hover {
   font-size: 3rem;
   font-family: "Raleway", sans-serif;
 }
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 3em 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+}
+
+.contact .text-box {
+  width: 30em;
+  height: 3em;
+}
+
+.contact .text-box-para {
+  width: 60em;
+  height: 20em;
+}
 /*# sourceMappingURL=main.css.map */

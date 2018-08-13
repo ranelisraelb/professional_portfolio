@@ -64,4 +64,19 @@ header {
         font-size: $link-font-size;
         font-family: $font-family;
     }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3em 0 0;
+        font-family: $font-family;
+        font-size: 1.5em;
+    }
+    .text-box {
+        width: 30em;
+        height: 3em;
+    }
+    .text-box-para {
+        width: 60em;
+        height: 20em;
+    }
 }
