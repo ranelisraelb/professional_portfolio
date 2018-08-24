@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  margin: 5rem 20rem 0 20rem;
+  margin: 8rem 10% 0 10%;
 }
 
 header {
@@ -74,6 +74,16 @@ header .nav-links ul li a:hover {
 .work .headline {
   font-size: 3rem;
   font-family: "Raleway", sans-serif;
+}
+
+.work .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .contact .headline {
