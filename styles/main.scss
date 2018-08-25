@@ -60,6 +60,22 @@ header {
     .project {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+    }
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-4 {
+        display: flex;
+        font-family: $font-family;
+        .project-name {
+            font-size: 1.7em;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .project-skills {
+            font-size: .9em;
+        }
     }
 }
 

@@ -84,6 +84,34 @@ header .nav-links ul li a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.work .project-1,
+.work .project-2,
+.work .project-3,
+.work .project-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+.work .project-1 .project-name,
+.work .project-2 .project-name,
+.work .project-3 .project-name,
+.work .project-4 .project-name {
+  font-size: 1.7em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.work .project-1 .project-skills,
+.work .project-2 .project-skills,
+.work .project-3 .project-skills,
+.work .project-4 .project-skills {
+  font-size: .9em;
 }
 
 .contact .headline {
